@@ -3,5 +3,6 @@ export const SpeakerPage = ({ speaker }) => (
         <h1 className="title">{speaker.name}</h1>
 
         <p className="description">Détails du speaker</p>
+        <p>Test CI !</p>
     </main>
 );
